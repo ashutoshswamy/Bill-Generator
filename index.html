@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bill Generator</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 class="title">Bill Generator</h1>
+    <div class="inputs">
+      <input id="customer" placeholder="Customer Name" type="text" />
+      <br />
+      <input id="item" placeholder="Item Name" type="text" />
+      <br />
+      <input id="price" placeholder="Price" type="number" />
+      <br />
+      <input id="quantity" placeholder="Quantity" type="number" />
+    </div>
+
+    <div class="button-1">
+      <button onclick="addItem()">Add Item</button>
+    </div>
+
+    <div class="inputs-table">
+      <table class="table" id="table">
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+          <th>Quantity</th>
+          <th>Amount</th>
+        </tr>
+      </table>
+    </div>
+
+    <div class="button-2">
+      <button onclick="generateBill()">Generate Bill</button>
+    </div>
+  </body>
+</html>

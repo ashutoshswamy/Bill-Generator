@@ -1,0 +1,51 @@
+body {
+  background-color: #eef5ff;
+  color: #176b87;
+  font-family: "Poppins", sans-serif;
+}
+
+h1.title {
+  padding-top: 50px;
+  text-align: center;
+}
+
+div.inputs {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.button-1 {
+  padding-top: 25px;
+  text-align: center;
+}
+
+div.inputs-table {
+  padding-top: 25px;
+}
+
+div.button-2 {
+  padding-top: 25px;
+  text-align: center;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+  width: 200px;
+  height: 25px;
+  margin: 10px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  width: 200px;
+  height: 25px;
+  margin: 10px;
+}
+
+table,
+th,
+td {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
